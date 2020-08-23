@@ -1,9 +1,3 @@
-![CRON Update Job](https://github.com/lvntbkdmr/NotiGoCMS/workflows/CRON%20Update%20Job/badge.svg?branch=master)
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
