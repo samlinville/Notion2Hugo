@@ -1,9 +1,9 @@
 # Notion configurations
 [notion]
-startPage = "1087c264ef6b450ca5c7d3c034b399d7"
+startPage = "c976f9b91131483ea160b52f1566c11b"
 
 # CMS Configurations
 [cms]
 cacheDir = "cache"
-postsDir = "blog/content/posts"
+postsDir = "blog/content/blog"
 imgDir = "blog/static/img"

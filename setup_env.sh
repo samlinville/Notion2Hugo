@@ -1,18 +1,18 @@
 #!/bin/bash
 #set -u -e -o pipefail
 
-GITHUB_ACTOR="lvntbkdmr"
+GITHUB_ACTOR="samlinville"
 
 # setup git
-git config --global user.email "lvntbkdmr@gmail.com"
-git config --global user.name "Levent Bekdemir"
+git config --global user.email "samlinville@protonmail.com"
+git config --global user.name "Sam Linville"
 git config --global github.user "${GITHUB_ACTOR}"
 git config --global github.token "${GITHUB_TOKEN_OVERRIDE}"
 
 [ -d "blog" ] && git rm -r --cached blog
 rm -rf blog
 
-git submodule add --force https://github.com/lvntbkdmr/blog.git blog
+git submodule add --force https://github.com/samlinville/hugo-site-sammy.git blog
 
 ./NotiGoCMS
 

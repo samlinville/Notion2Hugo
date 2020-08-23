@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gosimple/slug"
 	"github.com/kjk/notionapi"
 	"github.com/kjk/u"
-	"github.com/gosimple/slug"
 )
 
 // for Article.Status
