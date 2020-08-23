@@ -24,8 +24,8 @@ type ConfigType struct {
 }
 
 var (
-	config ConfigType
-	flgVerbose bool
+	config          ConfigType
+	flgVerbose      bool
 	nDownloadedPage = 0
 )
 
@@ -75,8 +75,8 @@ func newNotionClient() *notionapi.Client {
 }
 
 func main() {
-		var (
-		flgNoCache         bool
+	var (
+		flgNoCache bool
 	)
 
 	{
